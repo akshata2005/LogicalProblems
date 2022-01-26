@@ -25,6 +25,10 @@ namespace LogicalProgramms
                      Console.WriteLine("Fibonacci Series ......");
                      FibonacciSeries.FindFibonacciSeries();
                      break;
+                case 2:
+                    Console.WriteLine("PerfectNumber ......");
+                    PerfectNumber.FindPerfectNumber();
+                    break;
                 default:
                     break;
             }
