@@ -33,6 +33,10 @@ namespace LogicalProgramms
                     Console.WriteLine("PrimeNumber ......");
                     PrimeNumber.PrimeNumbers();
                     break;
+                case 4:
+                    Console.WriteLine("Reversing  a Number :");
+                    ReverseNumber.Reversenumber();
+                    break;
                 default:
                     break;
             }
