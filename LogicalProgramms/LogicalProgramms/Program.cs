@@ -37,6 +37,10 @@ namespace LogicalProgramms
                     Console.WriteLine("Reversing  a Number :");
                     ReverseNumber.Reversenumber();
                     break;
+                case 5:
+                    Console.WriteLine("Creating Coupon Numbers :");
+                    Coupon.CouponNumbers();
+                    break;
                 default:
                     break;
             }
