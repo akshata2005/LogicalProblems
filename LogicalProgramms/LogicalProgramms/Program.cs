@@ -29,6 +29,10 @@ namespace LogicalProgramms
                     Console.WriteLine("PerfectNumber ......");
                     PerfectNumber.FindPerfectNumber();
                     break;
+                case 3:
+                    Console.WriteLine("PrimeNumber ......");
+                    PrimeNumber.PrimeNumbers();
+                    break;
                 default:
                     break;
             }
